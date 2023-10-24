@@ -1,0 +1,11 @@
+#[masters]
+#2020 ansible_host=10.200.152.20
+
+
+[hez]
+202 ansible_host=10.200.0.202
+203 ansible_host=10.200.0.203
+204 ansible_host=10.200.0.204
+
+[152]
+1522 ansible_host=10.200.152.2

@@ -1,0 +1,143 @@
+2023-10-24 08:13:24,676 p=1120 u=zh n=ansible | [WARNING]: Unable to parse /home/zh/ansible/ansible-hez/202/hosts as an inventory source
+
+2023-10-24 08:13:24,676 p=1120 u=zh n=ansible | [WARNING]: No inventory was parsed, only implicit localhost is available
+
+2023-10-24 08:13:24,680 p=1120 u=zh n=ansible | [WARNING]: provided hosts list is empty, only localhost is available. Note that the implicit localhost does not match 'all'
+
+2023-10-24 08:14:06,502 p=1201 u=zh n=ansible | [WARNING]: Unable to parse /home/zh/ansible/ansible-hez/202/hosts as an inventory source
+
+2023-10-24 08:14:06,502 p=1201 u=zh n=ansible | [WARNING]: No inventory was parsed, only implicit localhost is available
+
+2023-10-24 08:14:06,506 p=1201 u=zh n=ansible | [WARNING]: provided hosts list is empty, only localhost is available. Note that the implicit localhost does not match 'all'
+
+2023-10-24 08:14:15,331 p=1238 u=zh n=ansible | 202 | UNREACHABLE! => {
+    "changed": false,
+    "msg": "Failed to connect to the host via ssh: Warning: Permanently added '10.200.0.202' (ED25519) to the list of known hosts.\r\nzh@10.200.0.202: Permission denied (publickey,password).",
+    "unreachable": true
+}
+2023-10-24 08:14:15,337 p=1238 u=zh n=ansible | 203 | UNREACHABLE! => {
+    "changed": false,
+    "msg": "Failed to connect to the host via ssh: Warning: Permanently added '10.200.0.203' (ED25519) to the list of known hosts.\r\nzh@10.200.0.203: Permission denied (publickey,password).",
+    "unreachable": true
+}
+2023-10-24 08:14:15,344 p=1238 u=zh n=ansible | 204 | UNREACHABLE! => {
+    "changed": false,
+    "msg": "Failed to connect to the host via ssh: Warning: Permanently added '10.200.0.204' (ED25519) to the list of known hosts.\r\nzh@10.200.0.204: Permission denied (publickey,password).",
+    "unreachable": true
+}
+2023-10-24 08:16:39,077 p=1304 u=zh n=ansible | 202 | UNREACHABLE! => {
+    "changed": false,
+    "msg": "Failed to connect to the host via ssh: zh@10.200.0.202: Permission denied (publickey,password).",
+    "unreachable": true
+}
+2023-10-24 08:16:39,078 p=1304 u=zh n=ansible | 203 | UNREACHABLE! => {
+    "changed": false,
+    "msg": "Failed to connect to the host via ssh: zh@10.200.0.203: Permission denied (publickey,password).",
+    "unreachable": true
+}
+2023-10-24 08:16:39,101 p=1304 u=zh n=ansible | 204 | UNREACHABLE! => {
+    "changed": false,
+    "msg": "Failed to connect to the host via ssh: zh@10.200.0.204: Permission denied (publickey,password).",
+    "unreachable": true
+}
+2023-10-24 08:27:01,464 p=1365 u=zh n=ansible | 202 | UNREACHABLE! => {
+    "changed": false,
+    "msg": "Failed to connect to the host via ssh: zh@10.200.0.202: Permission denied (publickey,password).",
+    "unreachable": true
+}
+2023-10-24 08:27:01,470 p=1365 u=zh n=ansible | 203 | UNREACHABLE! => {
+    "changed": false,
+    "msg": "Failed to connect to the host via ssh: zh@10.200.0.203: Permission denied (publickey,password).",
+    "unreachable": true
+}
+2023-10-24 08:27:01,493 p=1365 u=zh n=ansible | 204 | UNREACHABLE! => {
+    "changed": false,
+    "msg": "Failed to connect to the host via ssh: zh@10.200.0.204: Permission denied (publickey,password).",
+    "unreachable": true
+}
+2023-10-24 08:27:49,317 p=1432 u=zh n=ansible | 202 | FAILED! => {
+    "msg": "to use the 'ssh' connection type with passwords or pkcs11_provider, you must install the sshpass program"
+}
+2023-10-24 08:27:49,328 p=1432 u=zh n=ansible | 203 | FAILED! => {
+    "msg": "to use the 'ssh' connection type with passwords or pkcs11_provider, you must install the sshpass program"
+}
+2023-10-24 08:27:49,337 p=1432 u=zh n=ansible | 204 | FAILED! => {
+    "msg": "to use the 'ssh' connection type with passwords or pkcs11_provider, you must install the sshpass program"
+}
+2023-10-24 08:29:02,300 p=1640 u=zh n=ansible | 202 | SUCCESS => {
+    "ansible_facts": {
+        "discovered_interpreter_python": "/usr/bin/python3"
+    },
+    "changed": false,
+    "ping": "pong"
+}
+2023-10-24 08:29:02,341 p=1640 u=zh n=ansible | 203 | SUCCESS => {
+    "ansible_facts": {
+        "discovered_interpreter_python": "/usr/bin/python3"
+    },
+    "changed": false,
+    "ping": "pong"
+}
+2023-10-24 08:29:02,341 p=1640 u=zh n=ansible | 204 | SUCCESS => {
+    "ansible_facts": {
+        "discovered_interpreter_python": "/usr/bin/python3"
+    },
+    "changed": false,
+    "ping": "pong"
+}
+2023-10-24 08:55:41,819 p=1957 u=zh n=ansible | [WARNING]: Invalid characters were found in group names but not replaced, use -vvvv to see details
+
+2023-10-24 08:55:42,102 p=1957 u=zh n=ansible | 1522 | UNREACHABLE! => {
+    "changed": false,
+    "msg": "Failed to connect to the host via ssh: Warning: Permanently added '10.200.152.2' (ED25519) to the list of known hosts.\r\nzhydan-ap@10.200.152.2: Permission denied (publickey).",
+    "unreachable": true
+}
+2023-10-24 08:55:43,036 p=1957 u=zh n=ansible | 203 | SUCCESS => {
+    "ansible_facts": {
+        "discovered_interpreter_python": "/usr/bin/python3"
+    },
+    "changed": false,
+    "ping": "pong"
+}
+2023-10-24 08:55:43,048 p=1957 u=zh n=ansible | 202 | SUCCESS => {
+    "ansible_facts": {
+        "discovered_interpreter_python": "/usr/bin/python3"
+    },
+    "changed": false,
+    "ping": "pong"
+}
+2023-10-24 08:55:43,067 p=1957 u=zh n=ansible | 204 | SUCCESS => {
+    "ansible_facts": {
+        "discovered_interpreter_python": "/usr/bin/python3"
+    },
+    "changed": false,
+    "ping": "pong"
+}
+2023-10-24 09:01:26,061 p=2192 u=zh n=ansible | [WARNING]: Invalid characters were found in group names but not replaced, use -vvvv to see details
+
+2023-10-24 09:01:26,330 p=2192 u=zh n=ansible | 1522 | UNREACHABLE! => {
+    "changed": false,
+    "msg": "Failed to connect to the host via ssh: zhydan-ap@10.200.152.2: Permission denied (publickey).",
+    "unreachable": true
+}
+2023-10-24 09:01:27,226 p=2192 u=zh n=ansible | 202 | SUCCESS => {
+    "ansible_facts": {
+        "discovered_interpreter_python": "/usr/bin/python3"
+    },
+    "changed": false,
+    "ping": "pong"
+}
+2023-10-24 09:01:27,243 p=2192 u=zh n=ansible | 204 | SUCCESS => {
+    "ansible_facts": {
+        "discovered_interpreter_python": "/usr/bin/python3"
+    },
+    "changed": false,
+    "ping": "pong"
+}
+2023-10-24 09:01:27,282 p=2192 u=zh n=ansible | 203 | SUCCESS => {
+    "ansible_facts": {
+        "discovered_interpreter_python": "/usr/bin/python3"
+    },
+    "changed": false,
+    "ping": "pong"
+}
