@@ -1,3 +1,0 @@
----
-ansible_user			: zhydan-ap
-private_key_file		: /home/zh/.ssh/id_rsa_solist
